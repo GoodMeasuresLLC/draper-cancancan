@@ -1,6 +1,5 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-puts "hey!"
-require 'draper/cancan'
+require 'draper/cancancan'
 require 'draper'
 require 'cancancan'
 # Add support to load paths

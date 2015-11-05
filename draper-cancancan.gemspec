@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'draper/cancan/version'
+require 'draper/cancancan/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "draper-cancan"
-  spec.version       = Draper::CanCan::VERSION
+  spec.version       = Draper::CanCanCan::VERSION
   spec.authors       = ["Robert Mathews"]
   spec.email         = ["rob@justsoftwareconsulting.com"]
 
   spec.summary       = %q{Resolves a breaking change in CanCanCan version 1.13.0 and above when using it with DraperDecorator}
-  spec.homepage      = "https://github.com/GoodMeasuresLLC/draper-cancan"
+  spec.homepage      = "https://github.com/GoodMeasuresLLC/draper-cancancan"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

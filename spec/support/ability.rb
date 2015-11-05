@@ -1,6 +1,6 @@
 class Ability
   include ::CanCan::Ability
-  prepend ::Draper::CanCan
+  prepend ::Draper::CanCanCan
 
   def initialize(user)
     can :manage, Activity

@@ -1,4 +1,4 @@
-# Draper::Cancancan
+# Draper::CanCanCan
 
 In CanCanCan version 13.0 and above, a breaking change was introduced to speed up CanCanCan applications with lots
 of rules. Unfortunately, it breaks DraperDecorator. DraperDecorator suggests that you should use decorates_assigned instead, but this is not feasable or worthwhile for most people since it requires changing every reference in the views from '@object' to simply 'object'. Additionally, if you need to reference can? in a view, it still breaks. So something like this code in your view doesn't work for a decorated object: 
@@ -21,7 +21,7 @@ Typical error caused by this breaking change is something along the lines of "No
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'draper-cancan'
+gem 'draper-cancancan'
 ```
 
 And then execute:
@@ -30,7 +30,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install draper-cancan
+    $ gem install draper-cancancan
 
 
 
@@ -38,12 +38,12 @@ and that's it.
 
 ## Usage
 
-In your CanCan ability class, prepend Draper::CanCan like this:
+In your CanCan ability class, prepend Draper::CanCanCan like this:
 
 ```
 class Ability 
   include CanCan::Ability
-  prepend Draper::CanCan
+  prepend Draper::CanCanCan
 ...
 ```
 

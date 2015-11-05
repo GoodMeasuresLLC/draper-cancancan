@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Draper::CanCan do
+describe Draper::CanCanCan do
   it 'has a version number' do
-    expect(Draper::CanCan::VERSION).not_to be nil
+    expect(Draper::CanCanCan::VERSION).not_to be nil
   end
 
   describe 'decorated objects' do

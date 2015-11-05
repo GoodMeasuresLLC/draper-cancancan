@@ -1,7 +1,7 @@
-require "draper/cancan/version"
+require "draper/cancancan/version"
 
 module Draper
-  module CanCan
+  module CanCanCan
     # actually don't need any code in my gem's namespace .. 
     def can?(action, subject, *extra_args)
       if subject.is_a?(Draper::Decorator)
