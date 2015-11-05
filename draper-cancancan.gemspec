@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'draper/cancancan/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "draper-cancan"
+  spec.name          = "draper-cancancan"
   spec.version       = Draper::CanCanCan::VERSION
   spec.authors       = ["Robert Mathews"]
   spec.email         = ["rob@justsoftwareconsulting.com"]
