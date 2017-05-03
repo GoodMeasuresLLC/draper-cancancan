@@ -9,7 +9,7 @@ Here are some references:
 * [CanCanCan speedup](https://github.com/CanCanCommunity/cancancan/pull/178)
 * [breaking change discussion](https://github.com/CanCanCommunity/cancancan/pull/257)
 * [more change discussion](https://github.com/CanCanCommunity/cancancan/issues/255)
-* [Official DraperDecorator recommendation][https://github.com/drapergem/draper#when-to-decorate-objects]
+* [Official DraperDecorator recommendation](https://github.com/drapergem/draper#when-to-decorate-objects)
 
 Typical error caused by this breaking change is something along the lines of "Not authorized to :read Foo decorator", where Foo was the class that got decorated. Here's the exact error I stumbled across:
 
